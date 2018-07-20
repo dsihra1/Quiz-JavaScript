@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Where is this located Quiz</title>
+<link href="css/main.css" rel="stylesheet">
+<script src="Quiz.js"></script>
+
+</head>
+
+<body>
+
+<h1>Where is this located???</h1>
+
+<form id="quiz" name="quiz">
+	<img src="img/paris.jpg" alt="Eiffel Tower" height="250" width="150">
+	<p>Where is the Eiffel Tower Located?</p>
+	<input type="radio" id="mc" name="question1" value="Paris">Paris, France<br>
+	<input type="radio" id="mc" name="question1" value="Rome">Rome, Italy<br>
+	<input type="radio" id="mc" name="question1" value="Vilnius">Vilnius, Lithuania<br>
+	<input type="radio" id="mc" name="question1" value="Barcelona">Barcelona, Spain<br>
+
+	<img src="img/Keystone.jpg" alt="Eiffel Tower" height="150" width="250">
+	<p>Where is Mount Rushmore Located?</p>
+	<input type="radio" id="mc" name="question2" value="Keystone">Keystone, South Dakota<br>
+	<input type="radio" id="mc" name="question2" value="Cleveland">Cleveland, Ohio<br>
+	<input type="radio" id="mc" name="question2" value="St. Louis">St.Louis, Missouri<br>
+	<input type="radio" id="mc" name="question2" value="Washington">Washington, DC<br>
+
+<img src="img/Arizona.jpg" alt="Eiffel Tower" height="150" width="250">
+	<p>In what state is the Grand Canyon Located?</p>
+	<input type="radio" id="mc" name="question3" value="California">California<br>
+	<input type="radio" id="mc" name="question3" value="Nevada">Nevada<br>
+	<input type="radio" id="mc" name="question3" value="Arizona">Arizona<br>
+	<input type="radio" id="mc" name="question3" value="Texas">Texas<br>
+
+	<input id="button" type="button" value="Complete" onclick="check();">
+
+
+</form>
+
+<div id="results">
+	<p id="message"></p>
+	<p id="score"></p>
+	<img id="gifs">
+</div>
+
+
+
+</body>
+
+</html>
